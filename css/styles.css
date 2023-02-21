@@ -45,7 +45,7 @@ body{
 
 .perfil img{
     width: 100%;
-    border: 8px solid #0c575a;
+    padding: 1rem;
 }
 
 .nombre{
@@ -73,8 +73,8 @@ body{
     color: #0c575ae0;
     padding: 1rem 0;
     margin-top: 1rem;
-
 }
+
 
 li {
     display: flex;
@@ -240,6 +240,8 @@ li {
     letter-spacing: 1px;
 }
 
+/* Educación */
+
 .educacion{
     padding: 2rem 3rem; 
 
@@ -256,6 +258,24 @@ li {
     width: 100%;
     border-top: 1px  solid #000000;
 }
+ @media screen and (max-width: 768px) {
+    .icon-div{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    li{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nombre{
+        font-size: 1.5rem;
+    }
+
+
+    
+ }
 
 
 
