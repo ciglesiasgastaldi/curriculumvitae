@@ -49,30 +49,33 @@ body{
 }
 
 .nombre{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #0c575a;
     text-align: center;
     text-transform: uppercase;
     padding: 1rem 0;
+    position: sticky;
 }
 
 .carrera{
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    text-transform: uppercase;
    font-weight: bold;
    color: #0c575a;
    text-align: center;
    padding-bottom: 0.5rem;
    margin: 1rem;
+   position: sticky;
 }
 
 .main-title{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
     color: #0c575ae0;
     padding: 1rem 0;
     margin-top: 1rem;
+    position: sticky;
 }
 
 
@@ -91,6 +94,7 @@ li {
     font-size: 1rem;
     color: #0c575a;
     padding-left: 0.5rem;
+    position: sticky;
     
 }
 
@@ -105,9 +109,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-
 }
 
 .skill-title{
@@ -116,12 +117,13 @@ li {
     text-transform: uppercase;
     color: #0c575a;
     padding-right: 1rem;
+    position: sticky;
     
 
 }
 
 .barra-progreso{
-    width: 100%;
+    width: 50%;
     height: 0.4rem;
     background-color: #59ebf0e0;
     position: relative;
@@ -273,9 +275,19 @@ li {
         font-size: 1.5rem;
     }
 
-
+    .perfil img{
+        width: 100%;
+        padding: 0%;
+    }
     
- }
+    .text-contact {
+        font-size: 1rem;
+        text-align: center;
+        color: #0c575a;
+        padding-left: 0.5rem;
+    }
+    
+  }
 
 
 
