@@ -33,7 +33,7 @@ body{
 }
 
 .left-content{
-    padding: 1rem 2rem;
+    padding: 1.5rem;
 }
 
 
@@ -41,6 +41,11 @@ body{
 .perfil{
     width: 100%;
     border-bottom: 1px  solid #000000;
+}
+
+.image{
+    width: 100%;
+    text-align: center;
 }
 
 .perfil img{
@@ -260,7 +265,35 @@ li {
     width: 100%;
     border-top: 1px  solid #000000;
 }
+
+/* Media Queries */
+@media screen and (max-width: 823px) {
+
+    
+
+    .icon-div{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    li{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+}
  @media screen and (max-width: 768px) {
+
+    .left-section{
+        grid-column: span 3;
+
+    }
+
+    .right-section{
+        grid-column: span 4;
+    }
+
     .icon-div{
         width: 100%;
         flex-direction: column;
@@ -285,6 +318,17 @@ li {
         text-align: center;
         color: #0c575a;
         padding-left: 0.5rem;
+    }
+    
+  }
+
+  @media  screen and (max-width: 1200px) {
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .perfil img{
+        width: 40%;
     }
     
   }
