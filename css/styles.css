@@ -130,7 +130,7 @@ li {
 .barra-progreso{
     width: 50%;
     height: 0.4rem;
-    background-color: #59ebf0e0;
+    background-color: #b4b3ffe0;
     position: relative;
 }
 
@@ -192,7 +192,7 @@ li {
     font-weight: bold;
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #ffeed8;
+    background-color: #ffd8f5;
 }
 
 
