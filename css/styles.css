@@ -29,14 +29,11 @@ body{
     grid-column: span 5;
     background-color: #0c575a; 
     height: 100%;
-    
 }
 
 .left-content{
     padding: 1.5rem;
 }
-
-
 
 .perfil{
     width: 100%;
@@ -91,8 +88,7 @@ li {
 }
 
 .icon{
-    width: 2rem;
-    
+    width: 2rem; 
 }
 
 .text-contact{
@@ -100,7 +96,6 @@ li {
     color: #0c575a;
     padding-left: 0.5rem;
     position: sticky;
-    
 }
 
 /* Habilidades */
@@ -123,8 +118,6 @@ li {
     color: #0c575a;
     padding-right: 1rem;
     position: sticky;
-    
-
 }
 
 .barra-progreso{
@@ -175,8 +168,9 @@ li {
     text-transform: uppercase;
     color: #0c575a;
     padding: 2rem;
-
 }
+
+
 
 /* Sobre Mí */
 
@@ -217,7 +211,6 @@ li {
     margin: 0.5rem;
     padding-top: 2.5rem;
     padding-left: 0.5rem;
-
 }
 
 .experiencia-text{
@@ -236,8 +229,7 @@ li {
 
 
 .icon-experiencia{
-    width: 2rem;
-    
+    width: 2rem;  
 }
 
 .text-icon{
@@ -251,7 +243,6 @@ li {
 
 .educacion{
     padding: 2rem 3rem; 
-
 }
 
 .educacion-title{
@@ -269,8 +260,6 @@ li {
 /* Media Queries */
 @media screen and (max-width: 823px) {
 
-    
-
     .icon-div{
         width: 100%;
         flex-direction: column;
@@ -279,10 +268,9 @@ li {
     li{
         width: 100%;
         flex-direction: column;
-    }
-    
-    
+    }   
 }
+
  @media screen and (max-width: 768px) {
 
     .left-section{
