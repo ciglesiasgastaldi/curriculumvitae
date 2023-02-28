@@ -164,6 +164,7 @@ li {
     width: 55%;
 }
 
+/* Idiomas */
 
 .idiomas-title{
     font-size: 1rem;
@@ -171,6 +172,10 @@ li {
     text-transform: uppercase;
     color: #0c575a;
     padding: 2rem;
+}
+
+.progreso-ingles{
+    width: 75%;
 }
 
 
@@ -321,7 +326,6 @@ li {
     .perfil img{
         width: 40%;
     }
-    
   }
 
 
