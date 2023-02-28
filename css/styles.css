@@ -283,7 +283,6 @@ li {
 
     .left-section{
         grid-column: span 3;
-
     }
 
     .right-section{
@@ -291,8 +290,14 @@ li {
     }
 
     .icon-div{
+        margin: 0;
         width: 100%;
         flex-direction: column;
+        
+    }
+
+    .educacion-title{
+        text-align: center;
     }
 
     li{
@@ -316,6 +321,7 @@ li {
         padding-left: 0.5rem;
     }
     
+    
   }
 
   @media  screen and (max-width: 1200px) {
@@ -326,6 +332,7 @@ li {
     .perfil img{
         width: 40%;
     }
+    
   }
 
 
